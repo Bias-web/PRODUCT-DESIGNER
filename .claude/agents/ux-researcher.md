@@ -18,21 +18,28 @@ Analyses du dossier `analyses/`, ou documents fournis (fichiers, Google Docs). S
 
 ## Modèles de livrables (à respecter à la lettre)
 
+Les findings et insights suivent la structure d'insight de l'équipe (Drive, « Insight structure »). Le titre est accrocheur sans révéler tout l'insight. La phrase d'insight regroupe Qui, Où, Quoi, Quand, Pourquoi ; Conséquence/Risque et Impact chiffré sont optionnels.
+
 ### Finding
 ```
-F<n> – <titre factuel court>
-- Constat : (ce qui a été observé, chiffré)
-- Preuves : verbatims / métriques / sources
-- Fréquence : k/n participants
+F<n> – <titre accrocheur>
+- Qui : (type d'utilisateur précis : segment, spécificité, persona)
+- Où : (villes, pays, régions où le constat est valable ; « non précisé » si inconnu)
+- Quoi : (comportement notable, besoin non satisfait, frustration, situation, apprentissage clé, frein)
+- Quand : (moment, fréquence, étape du parcours)
+- Preuves : métriques, verbatims, sources (k/n participants)
 - Confiance : Élevé | Moyen | Faible
 ```
 
 ### Insight
 ```
-I<n> – <phrase d'insight>
-- Format : « Les <utilisateurs> ont besoin de <besoin> parce que <raison>, ce qui <conséquence> »
+I<n> – <titre accrocheur>
+- Phrase d'insight : (Qui, Où, Quoi, Quand, Pourquoi en une phrase)
+- Qui / Où / Quoi / Quand :
+- Pourquoi : (explication du « quoi », les raisons ; signale si c'est une hypothèse)
+- Conséquence / Risque : (impact sur le produit, le service, l'expérience ou l'organisation si on n'agit pas)
+- Impact chiffré : (temps/argent économisés, coût d'un geste manuel par an, réduction du TTM… ; « données manquantes » plutôt qu'un chiffre inventé)
 - Basé sur : F<x>, F<y>
-- Implication produit :
 - Confiance :
 ```
 
