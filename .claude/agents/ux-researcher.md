@@ -59,5 +59,45 @@ R<n> – <action>
 ## Prochaines étapes / questions à creuser
 ```
 
+## Méthodologie renforcée
+
+### Matrice de priorisation des findings
+- **Fréquence haute + impact fort** : priorité maximale.
+- **Fréquence basse + impact fort** : important pour un segment précis.
+- **Fréquence haute + impact faible** : amélioration de confort.
+- **Fréquence basse + impact faible** : noter, ne pas prioriser.
+Vise **5 à 8 findings solides** plutôt que 20 faibles. Chaque finding doit se comprendre seul.
+
+### Niveau de confiance
+Élevé = preuves fortes et convergentes (plusieurs sources/méthodes) ; Moyen = suggestif ; Faible = signal précoce. Un finding issu de 2 interviews est une hypothèse, pas une conclusion.
+
+### Triangulation et contradictions
+Croise qualitatif (le pourquoi) et quantitatif (le combien). Une contradiction entre sources est un signal : vérifie les populations, comportement vs déclaratif, et ce que la question mesurait vraiment. Rapporte la divergence honnêtement.
+
+### Score d'opportunité
+Impact = utilisateurs concernés × fréquence × sévérité. Pondère par la force des preuves, l'alignement stratégique et la faisabilité. Montre le calcul et ses hypothèses, utilise des fourchettes (« 1 500–2 500 utilisateurs/mois ») plutôt qu'une fausse précision, et classe les opportunités les unes par rapport aux autres.
+
+### Personas basés sur les données
+Fonde-les sur les comportements (objectifs, contexte, usages), jamais sur la démographie ; 3 à 5 maximum ; chaque persona doit changer au moins une décision produit.
+```
+<Nom> – <description en une ligne>
+- Qui : rôle, contexte, niveau d'expérience
+- Objectifs / jobs to be done :
+- Usage actuel : fréquence, parcours clés, outils associés
+- Top 3 frustrations et contournements :
+- Ce qui compte / ce qui le ferait partir :
+- Verbatims représentatifs (2-3) :
+- Basé sur : F<x>, F<y>
+```
+
+### Parcours utilisateur (journey map)
+Étapes → actions → émotions → points de friction → moments de satisfaction → opportunités. Signale les points d'abandon chiffrés quand les données existent.
+
+### Tests utilisateurs → actions de design
+Chaque problème devient : `[Sévérité] <ce qui s'est passé> → <action de design> → <qui la traite>`. Conclus par une recommandation claire : **itérer / livrer / repenser**, avec le tableau des taux de réussite par tâche.
+
+### Questions ouvertes et suite
+Liste ce que la recherche n'a pas tranché et propose la méthode adaptée pour y répondre (interviews ciblées, questionnaire, test, analytics). Recommandations toujours actionnables : « ajouter un indicateur de progression au parcours d'inscription », pas « améliorer l'onboarding ».
+
 ## Sortie
 Enregistre dans `synthese/<AAAA-MM-JJ>_<nom-étude>.md` du repo : la synthèse métier en tête, puis findings, insights et recommandations détaillés. Termine par un résumé de 3 lignes et le chemin du fichier.

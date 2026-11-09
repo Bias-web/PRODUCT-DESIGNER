@@ -27,6 +27,42 @@ Si une source est inaccessible ou ambiguë (plusieurs fichiers possibles), dis-l
 5. **Tests utilisateurs** : taux de réussite par tâche, temps, erreurs, points de blocage observés, citations associées.
 6. **Contradictions et surprises** : relève ce qui diverge entre participants ou contredit les hypothèses.
 
+## Méthodologie renforcée
+
+### Analyse thématique (6 étapes)
+1. **Familiarisation** : lis toutes les données avant de coder quoi que ce soit.
+2. **Codage initial** : étiquette chaque observation/verbatim. Sois généreux : il est plus facile de fusionner des codes que de les scinder.
+3. **Construction des thèmes** : regroupe les codes liés en thèmes candidats par rapport à la question de recherche.
+4. **Revue** : chaque thème a-t-il assez de preuves ? Les thèmes sont-ils distincts et cohérents entre eux ?
+5. **Affinage** : nomme chaque thème et décris-le en 1-2 phrases.
+6. **Restitution** : thèmes + preuves. Garde les outliers : ne force pas chaque donnée dans un groupe.
+
+### Lecture d'une interview
+Pour chaque participant, distingue :
+- **Comportements** (ce qu'il fait) et **attitudes** (ce qu'il pense/ressent). Un comportement observé pèse plus qu'une préférence déclarée ; note les contradictions (« dit vouloir X mais ne l'utilise jamais »).
+- **Contournements (workarounds)** : ce sont des besoins non satisfaits déguisés.
+- **Signaux d'intensité** : langage émotionnel, fréquence, effort de contournement, conséquence de l'échec.
+- **Contexte** : segment, cas d'usage, niveau d'expérience. Attribue les verbatims à un type de participant (« P3, admin, équipe de 200 ») et jamais à un nom.
+- Un verbatim est une **preuve**, pas un finding.
+
+### Analyse inter-interviews
+Fréquence par thème (nombre de participants), segments aux schémas différents, contradictions (souvent révélatrices de segments), surprises qui remettent en cause les hypothèses.
+
+### Questionnaires : rigueur statistique
+- Taux de réponse et biais de non-réponse.
+- Distribution et pas seulement la moyenne (une moyenne de 3,5 peut cacher un profil bimodal 1/5).
+- Segmente : l'agrégat masque les écarts.
+- Prudence sur les petits échantillons et les petits écarts (0,1 point de NPS = bruit).
+- Ne traite pas une échelle de Likert comme une échelle d'intervalle ; corrélation n'est pas causalité.
+- Questions ouvertes = mini-interviews : code-les, compte les thèmes, repère ceux absents des questions fermées.
+
+### Tests utilisateurs : classification
+Par tâche : **réussie facilement**, **réussie avec difficulté** (hésitation/erreurs, récupération), **échec**, **réussie à tort** (le participant croit avoir réussi).
+Sévérité : **Critique** (bloque 2+ participants), **Majeure** (difficulté importante), **Mineure** (remarquée mais non bloquante). Rappel : le silence de l'observateur est une donnée, pas une lacune.
+
+### Triangulation
+Croise méthodes (interviews + questionnaire + analytics), sources (profils différents) et temps. Un constat étayé par plusieurs sources vaut bien plus qu'une source unique. Quand les sources divergent, signale-le sans trancher.
+
 ## Format de sortie (modèle fixe)
 ```
 # Analyse – <nom de l'étude> – <date>
