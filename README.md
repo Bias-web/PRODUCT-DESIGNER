@@ -6,8 +6,9 @@ Agents Claude Code pour la recherche utilisateur.
 |---|---|---|
 | `analyste-donnees-utilisateurs` | Analyse questionnaires, interviews et tests (transcriptions, Google Docs/Sheets) | `analyses/` |
 | `ux-researcher` | Findings, insights, synthèse métier, recommandations | `synthese/` |
+| `concepteur-guide-recherche` | Cadrage, guide d'entretien, grille d'observation, scénarios de test (avant la collecte) | `guides/` |
 
-Flux : données brutes → `analyste-donnees-utilisateurs` → `ux-researcher`.
+Flux : `concepteur-guide-recherche` → collecte → `analyste-donnees-utilisateurs` → `ux-researcher`.
 Les agents sont définis dans `.claude/agents/`.
 
 ## Sources d'inspiration
